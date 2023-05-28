@@ -1,0 +1,5 @@
+@charset "UTF-8";
+/* リセットCSS */
+@import url("./reset.css");
+/* アプリ用CSS */
+@import url("./main.css");

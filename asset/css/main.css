@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+    /* フォントサイズ16pxを10pxに */
+}
+
+body {
+    font-size: 1.6rem;
+    font-family:
+        system-ui,
+        -apple-system,
+        /* Firefox supports this but not yet `system-ui` */
+        'Segoe UI',
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        'Apple Color Emoji',
+        'Segoe UI Emoji';
+}
