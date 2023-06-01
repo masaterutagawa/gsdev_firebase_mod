@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./asset/css/import.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  <title>Firebaseアプリの課題</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header_area">
+      <div class="header_area_contents">
+        <form action="">
+          <button id="out">ログアウト</button>
+        </form>
+        <p id=""><span id="nickname"></span>、<span id="bakachiVoice">今日は何の悩みがあるとね</span></p>
+        <img src="./asset/img/bakachinga.png" alt="" id="bakachinga__bt" width="80px">
+      </div>
+
+    </div><!-- /.header_area -->
+
+    <div id="stickyNote__wrapper">
+      <div id="stickyNote__container">
+
+        <!-- #stickyNote__container内に付箋を出力する -->
+
+      </div><!-- /#stickyNote__container -->
+
+      <div id="stickyNote__ui">
+
+
+        <form action="">
+          <!-- 付箋へのテキスト入力のボタン -->
+          <input type="text" id="stickyNote__Title">
+          <input id="stickyNoteAdd" type="submit" value="投稿">
+          <!-- <div id="stickyNoteAdd">投稿</div> -->
+        </form>
+      </div><!-- /#stickyNote__ui -->
+
+
+
+    </div><!-- /#stickyNote__wrapper -->
+
+
+  </div><!-- /.container -->
+
+  <script src="./asset/js/firebase_chat.js" charset="UTF-8" type="module"></script>
+
+
+
+
+
+
+</body>
+
+</html>

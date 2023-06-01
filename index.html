@@ -5,15 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログイン画面-Firebaseアプリの課題</title>
     <link rel="stylesheet" href="./asset/css/import.css">
+    <link rel="stylesheet" href="./asset/css/login.css">
     <script src="https://code.jquery.com/jquery-3.6.4.js"
         integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
-    <title>firebase課題</title>
 </head>
 
 <body>
 
+    <div class="login-page">
+        <div class="form">
+            <form action="" class="login-form">
+                <input id="mailAddress" type="email" placeholder="email address" required />
+                <input t id="password" type="password" placeholder="password" required />
+                <input id="register" type="submit" value="新規登録">
+                <input id="login" type="submit" value="ログイン">
+            </form>
+        </div>
+    </div>
+
+    <script src="./asset/js/firebase_login.js" charset="UTF-8" type="module"></script>
 
 </body>
 
